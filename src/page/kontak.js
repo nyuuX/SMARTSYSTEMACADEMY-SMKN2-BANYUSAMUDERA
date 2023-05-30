@@ -34,7 +34,7 @@ const handleSubmit = (event) => {
             </div>
         <div className="w-full flex flex-col items-center">
             <div className="w-full flex flex-col justify-center items-center py-20 gap-8">
-                <h1 className="text-4xl text-center w-1/2 ">Jangan ragu untuk mengontak kami untuk mendapatkan informasi tentang Binari</h1>
+                <h1 className="text-4xl text-center w-1/2 ">Jangan ragu untuk mengontak kami untuk mendapatkan informasi tentang SSA</h1>
                 <h2 className="text-2xl text-center w-1/2 text-gray-700">Kontak kami untuk segera mendapat bantuan</h2>
             </div>
             <div className="w-1/2">
@@ -61,7 +61,7 @@ const handleSubmit = (event) => {
                 <div className="w-full flex flex-col">
                         <span>Pesan Anda*</span>
                         <textarea required onChange={handleChange} name="message" id="" cols="30" rows="10" className=" border border-black outline-none focus:border-pink-600 transition p-3"></textarea>
-                        <button className="w-1/3 bg-pink-600 text-white text-center mt-4 h-10 flex flex-col justify-center items-center">KIRIM PESAN</button>
+                        <button className="w-1/3 bg-[#607EA6] text-white text-center mt-4 h-10 flex flex-col justify-center items-center">KIRIM PESAN</button>
                 </div>
                 </form>
                 

@@ -21,86 +21,18 @@ const Tentang = () => {
             <p className="text-4xl w-4/5">Adalah platform pembelajaran dengan mengusung konsep Pembelajaran paradigma baru memastikan praktik pembelajaran yang berpusat pada murid, yang mana setiap murid belajar sesuai dengan kebutuhan dan tahap perkembangannya.</p>
         </div>
         <div className="flex sm:flex-col sm:items-center xl:flex-row xl:items-start justify-evenly py-32 bg-gray-50">
-            <div className="text-center sm:w-full xl:w-1/3 min-h-[500px] p-20 rounded-2xl shadow-2xl border transition bg-white">
+            <div className="text-center sm:w-full xl:w-1/3 min-h-[530px] p-20 rounded-2xl shadow border transition bg-white">
                 <h2 className="text-3xl mb-4">Visi</h2>
                 <p className="text-lg">Visi kami adalah menjadi Inkubator terbaik untuk Startups bidang teknologi informasi dan komunikasi di Indonesia.</p>
             </div>
-            <div className="text-center sm:w-full xl:w-1/3 min-h-[500px] p-20 shadow-2xl rounded-2xl border transition bg-white">
+            <div className="text-center sm:w-full xl:w-1/3 min-h-[530px] p-20 shadow rounded-2xl border transition bg-white">
                 <h2 className="text-3xl mb-4">Misi</h2>
-                <ul className="text-left list-disc text-lg">
-                    <li>Mengelola program Inkubator yang berfokus pada solusi dan inovasi berkelanjutan.</li>
-                    <li>Menyediakan fasilitas yang mendorong Startup untuk menjadi kreatif dan produktif.</li>
-                    <li>Menjadi penghubung untuk Startup dengan sinergi program dan kolaborasi dengan investor, pemerintah, perusahaan, akademisi, media dan komunitas.</li>
-                    <li>Mengelola pendanaan yang menguntungkan dan modal pertumbuhan untuk Investor dan Startup.</li>
+                <ul className="text-left list-none text-lg">
+                    <li>1. Mengelola program Inkubator yang berfokus pada solusi dan inovasi berkelanjutan.</li>
+                    <li>2. Menyediakan fasilitas yang mendorong Startup untuk menjadi kreatif dan produktif.</li>
+                    <li>3. Menjadi penghubung untuk Startup dengan sinergi program dan kolaborasi dengan investor, pemerintah, perusahaan, akademisi, media dan komunitas.</li>
+                    <li>4. Mengelola pendanaan yang menguntungkan dan modal pertumbuhan untuk Investor dan Startup.</li>
                 </ul>
-            </div>
-        </div>
-        <div className="py-20 px-20">
-            <h2 className="text-4xl mb-20 text-center">Tim Kami</h2>
-            <div className="flex flex-col gap-24">
-                <div className="flex sm:flex-col sm:items-center xl:flex-row xl:items-start  justify-center gap-36">
-                    <div className=" rounded-[100px] text-left p-10 transition w-96 border rounded-tr-none rounded-bl-none shadow-2xl">
-                        <div className="flex justify-center p-2">
-                            <img src={p1} alt="" className=" h-52 rounded-lg mr-0 relative"/>
-                        </div>
-                        <p className="text-2xl font-semibold mt-8">Yoanes Bandung</p>
-                        <p className="text-xl font-semibold text-gray-600">Incubator Manager</p>
-                    </div>
-                    <div className="rounded-[100px] text-left p-10 transition w-96 border rounded-tr-none rounded-bl-none shadow-2xl">
-                        <div className="flex justify-center p-2">
-                            <img src={p2} alt="" className=" h-52 rounded-lg mr-0 "/>
-                        </div>
-                        <p className="text-2xl font-semibold mt-8">Armein Z R Langi</p>
-                        <p className="text-xl font-semibold text-gray-600">Chief Of Partnership</p>
-                    </div>
-                    <div className="rounded-[100px] text-left p-10  transition w-96 border rounded-tr-none rounded-bl-none shadow-2xl">
-                        <div className="flex justify-center p-2">
-                            <img src={p3} alt="" className=" h-52 rounded-lg mr-0 "/>
-                        </div>
-                        <p className="text-2xl font-semibold mt-8">Dwi Hendratmo Widyantoro</p>
-                        <p className="text-xl font-semibold text-gray-600">General Manager Binari</p>
-                    </div>
-                </div>
-                <div className="flex sm:flex-col sm:items-center xl:flex-row xl:items-start  justify-center gap-36">
-                    <div className="rounded-[100px] text-left p-10  transition w-96 border rounded-tr-none rounded-bl-none shadow-2xl">
-                        <div className="flex justify-center p-2">
-                            <img src={p4} alt="" className=" h-52 rounded-lg mr-0 "/>
-                        </div>
-                        <p className="text-2xl font-semibold mt-8">Mervin T. Hutabarat</p>
-                        <p className="text-xl font-semibold text-gray-600">Chief Of Marketing</p>
-                    </div>
-                    <div className="rounded-[100px] text-left p-10  transition w-96 border rounded-tr-none rounded-bl-none shadow-2xl">
-                        <div className="flex justify-center p-2">
-                            <img src={p5} alt="" className=" h-52 rounded-lg mr-0 "/>
-                        </div>
-                        <p className="text-2xl font-semibold mt-8">M. Fahmi Nurfadillah</p>
-                        <p className="text-xl font-semibold text-gray-600">IT Staff</p>
-                    </div>
-                    <div className="rounded-[100px] text-left p-10  transition w-96 border rounded-tr-none rounded-bl-none shadow-2xl">
-                        <div className="flex justify-center p-2">
-                            <img src={p6} alt="" className=" h-52 rounded-lg mr-0 "/>
-                        </div>
-                        <p className="text-2xl font-semibold mt-8">Mohammad Maulana</p>
-                        <p className="text-xl font-semibold text-gray-600">Busdev. Manager Binari</p>
-                    </div>
-                </div>
-                <div className="flex sm:flex-col sm:items-center xl:flex-row xl:items-start  justify-center gap-36">
-                    <div className="rounded-[100px] text-left p-10  transition w-96 border rounded-tr-none rounded-bl-none shadow-2xl">
-                        <div className="flex justify-center p-2">
-                            <img src={p7} alt="" className=" h-52 rounded-lg mr-0 "/>
-                        </div>
-                        <p className="text-2xl font-semibold mt-8">Vitradisa</p>
-                        <p className="text-xl font-semibold text-gray-600">Vitradisa</p>
-                    </div>
-                    <div className="rounded-[100px] text-left p-10  transition w-96 border rounded-tr-none rounded-bl-none shadow-2xl">
-                        <div className="flex justify-center p-2">
-                            <img src={p8} alt="" className=" h-52 rounded-lg mr-0 "/>
-                        </div>
-                        <p className="text-2xl font-semibold mt-8">Asep Saepuloh</p>
-                        <p className="text-xl font-semibold text-gray-600">Idventure Manager</p>
-                    </div>
-
-                </div>
             </div>
         </div>
         <Footer />

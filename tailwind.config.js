@@ -22,7 +22,6 @@ module.exports = {
       'sm': '320px',
       'md': '1024px',
       'xl': '1280px',
-      // => @media (min-width: 992px) { ... }
     },
   },
   plugins: [
